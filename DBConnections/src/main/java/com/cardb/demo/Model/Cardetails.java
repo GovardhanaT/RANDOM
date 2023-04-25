@@ -8,7 +8,7 @@ import jakarta.persistence.Table;
 @Table(name="Cardetails")
 public class Cardetails{
 	@Id
-	private int cid;
+	private int id;
 	private String name;
 	private int price;
 	private String type;
@@ -69,11 +69,11 @@ public class Cardetails{
 	public void setColor(String color) {
 		this.color = color;
 	}
-	public int getCid() {
-		return cid;
+	public int getId() {
+		return id;
 	}
-	public void setCid(int cid) {
-		this.cid = cid;
+	public void setId(int id) {
+		this.id = id;
 	}
 	
 	
