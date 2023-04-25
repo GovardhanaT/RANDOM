@@ -64,9 +64,7 @@ public class Moviesdb {
 	public void setCamMan(String camMan) {
 		this.camMan = camMan;
 	}
-	public Moviesdb save(Moviesdb m) {
-		return m;
-	}
+	
 	
 
 
