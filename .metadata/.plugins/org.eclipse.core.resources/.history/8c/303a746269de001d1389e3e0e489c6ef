@@ -1,9 +1,0 @@
-package com.example.demo.ex1;
-
-import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-@SpringBootApplication
-public class JsonIgnoreApplication {
-	public static void main(String[] args) throws J
-
-}
